@@ -1,2 +1,7 @@
 
-连续子数组的最大和 https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/
+1.连续子数组的最大和 https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/ 
+    （修改原数组DP）
+2.65 有效数字 https://leetcode-cn.com/problems/valid-number/
+    错误一次，正则问题，忽略4.
+3.BFS，队列放(word，长度)
+
