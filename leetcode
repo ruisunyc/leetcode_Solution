@@ -4,4 +4,6 @@
 2.65 有效数字 https://leetcode-cn.com/problems/valid-number/
     错误一次，正则问题，忽略4.
 3.BFS，队列放(word，长度)
+4.网格中的最短路径 https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
+最短路径 BFS ，想象成环，每层消去的障碍相同，优化k，先走行最上侧再走列最右侧，走m+n-1个节点，减去开头结尾不为障碍，最多m+n-3个障碍即可
 
