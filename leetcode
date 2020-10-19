@@ -11,4 +11,8 @@
 6.编辑距离
 二维dp：从word1 位置i到word2位置2最少操作次数
 递归
+7.滑动窗口中位数
+指针+二分查找和插入有序数组，控制数组长度，返回中间数和/2即可
+8.滑动窗口的最大值 https://leetcode-cn.com/problems/sliding-window-maximum/
+单调递减双端队列
 
