@@ -20,4 +20,8 @@
 10.三数之和
 排序+指针
 外层遍历一遍元素，内层双指针l,r，判断当前和与目标和关系移动指针，注意外内层去重
+11. 乘积最大子数组 https://leetcode-cn.com/problems/maximum-product-subarray/
+dp，空间1，时间O(n),两个变量,dp_max,dp_min，初始化第一个元素
+12.乘积为正数的最长子数组长度 https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/
+dp,空间1，时间O(n),dp_pos,dp_neg,乘积正数最大长度，乘积负数最大长度
 
