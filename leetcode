@@ -24,4 +24,7 @@
 dp，空间1，时间O(n),两个变量,dp_max,dp_min，初始化第一个元素
 12.乘积为正数的最长子数组长度 https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/
 dp,空间1，时间O(n),dp_pos,dp_neg,乘积正数最大长度，乘积负数最大长度
+13.买卖股票的最佳时机含手续费 https://github.com/ruisunyc/study
+   滚动dp，两个变量，一个存当前不持有的最大利润，一个存当前持有的最大利润
+
 
