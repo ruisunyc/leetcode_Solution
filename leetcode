@@ -30,5 +30,9 @@ dp,空间1，时间O(n),dp_pos,dp_neg,乘积正数最大长度，乘积负数最
     状态机解法，四个状态
 15.验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
     dfs，设置最小边界和最大边界，代表根节点符合条件，递归左子树和右子树即可
+16.最近公共祖先
+树节点和p，q节点判断即可
+17.相交链表
+两个指针指向头结点，m+n长度不变，走相同长度即会相交
 
 
