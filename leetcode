@@ -24,9 +24,9 @@
 dp，空间1，时间O(n),两个变量,dp_max,dp_min，初始化第一个元素
 12.乘积为正数的最长子数组长度 https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/
 dp,空间1，时间O(n),dp_pos,dp_neg,乘积正数最大长度，乘积负数最大长度
-13.买卖股票的最佳时机含手续费 https://github.com/ruisunyc/study
+13.买卖股票的最佳时机含手续费 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
    滚动dp，两个变量，一个存当前不持有的最大利润，一个存当前持有的最大利润
-14.买卖股票最大次数2
+14.买卖股票最大次数https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/
     状态机解法，四个状态
 15.验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
     dfs，设置最小边界和最大边界，代表根节点符合条件，递归左子树和右子树即可
