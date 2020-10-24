@@ -1,38 +1,41 @@
-
 1.连续子数组的最大和 https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/ 
     （修改原数组DP）
 2.65 有效数字 https://leetcode-cn.com/problems/valid-number/
     错误一次，正则问题，忽略4.
 3.BFS，队列放(word，长度)
 4.网格中的最短路径 https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
-    最短路径 BFS ，想象成环，每层消去的障碍相同，优化k，先走行最上侧再走列最右侧，走m+n-1个节点，减去开头结尾不为障碍，最多m+n-3个障碍即可
+    	最短路径 BFS ，想象成环，每层消去的障碍相同，优化k，先走行最上侧再走列最右侧，走m+n-1个节点，减去开头结尾不为障碍，最多m+n-3个障碍即可
 5.接雨水
    单调递减栈，动态规划
 6.编辑距离
-二维dp：从word1 位置i到word2位置2最少操作次数
-递归
+	二维dp：从word1 位置i到word2位置2最少操作次数
+	递归
 7.滑动窗口中位数
-指针+二分查找和插入有序数组，控制数组长度，返回中间数和/2即可
+	指针+二分查找和插入有序数组，控制数组长度，返回中间数和/2即可
 8.滑动窗口的最大值 https://leetcode-cn.com/problems/sliding-window-maximum/
-单调递减双端队列
+	单调递减双端队列
 9.数组中的第K个最大元素 https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
-小顶堆heapq，遍历数组元素大于堆顶替换
+	小顶堆heapq，遍历数组元素大于堆顶替换
 10.三数之和
 排序+指针
 外层遍历一遍元素，内层双指针l,r，判断当前和与目标和关系移动指针，注意外内层去重
+
 11. 乘积最大子数组 https://leetcode-cn.com/problems/maximum-product-subarray/
-dp，空间1，时间O(n),两个变量,dp_max,dp_min，初始化第一个元素
-12.乘积为正数的最长子数组长度 https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/
-dp,空间1，时间O(n),dp_pos,dp_neg,乘积正数最大长度，乘积负数最大长度
-13.买卖股票的最佳时机含手续费 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
-   滚动dp，两个变量，一个存当前不持有的最大利润，一个存当前持有的最大利润
-14.买卖股票最大次数https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/
+    dp，空间1，时间O(n),两个变量,dp_max,dp_min，初始化第一个元素
+12. 乘积为正数的最长子数组长度 https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/
+    dp,空间1，时间O(n),dp_pos,dp_neg,乘积正数最大长度，乘积负数最大长度
+13. 买卖股票的最佳时机含手续费 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+       滚动dp，两个变量，一个存当前不持有的最大利润，一个存当前持有的最大利润
+14. 买卖股票最大次数https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/
     状态机解法，四个状态
-15.验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
+15. 验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
     dfs，设置最小边界和最大边界，代表根节点符合条件，递归左子树和右子树即可
-16.最近公共祖先
-树节点和p，q节点判断即可
-17.相交链表
-两个指针指向头结点，m+n长度不变，走相同长度即会相交
-
-
+16.  括号生成 https://leetcode-cn.com/problems/generate-parentheses/
+     深搜dfs，两个变量存放左右括号使用的个数
+17. 最近公共祖先
+    树节点和p，q节点判断即可
+18. 相交链表
+    两个指针指向头结点，m+n长度不变，走相同长度即会相交
+19. 众数 https://leetcode-cn.com/problems/majority-element/
+    摩尔投票法，两个变量一个存结果，一个存计数
+20. 快速幂 https://leetcode-cn.com/problems/powx-n/
