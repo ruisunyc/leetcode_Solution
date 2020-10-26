@@ -1,8 +1,11 @@
-1.连续子数组的最大和 https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/ 
+1.连续子数组的最大和  
     （修改原数组DP）
-2.65 有效数字 https://leetcode-cn.com/problems/valid-number/
+2.65 有效数字 
     错误一次，正则问题，忽略4.
-3.BFS，队列放(word，长度)
+3.[矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)
+
+	带返回长度的dfs，所有点搜一遍返回最大值
+
 4.网格中的最短路径 https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
     	最短路径 BFS ，想象成环，每层消去的障碍相同，优化k，先走行最上侧再走列最右侧，走m+n-1个节点，减去开头结尾不为障碍，最多m+n-3个障碍即可
 5.接雨水
@@ -19,7 +22,6 @@
 10.三数之和
 排序+指针
 外层遍历一遍元素，内层双指针l,r，判断当前和与目标和关系移动指针，注意外内层去重
-
 11. 乘积最大子数组 https://leetcode-cn.com/problems/maximum-product-subarray/
     dp，空间1，时间O(n),两个变量,dp_max,dp_min，初始化第一个元素
 12. 乘积为正数的最长子数组长度 https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/
@@ -30,8 +32,8 @@
     状态机解法，四个状态
 15. 验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
     dfs，设置最小边界和最大边界，代表根节点符合条件，递归左子树和右子树即可
-16.  括号生成 https://leetcode-cn.com/problems/generate-parentheses/
-     深搜dfs，两个变量存放左右括号使用的个数
+16. 括号生成 https://leetcode-cn.com/problems/generate-parentheses/
+    深搜dfs，两个变量存放左右括号使用的个数
 17. 最近公共祖先
     树节点和p，q节点判断即可
 18. 相交链表
