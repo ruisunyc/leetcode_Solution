@@ -22,22 +22,36 @@
 10.三数之和
 排序+指针
 外层遍历一遍元素，内层双指针l,r，判断当前和与目标和关系移动指针，注意外内层去重
+
 11. 乘积最大子数组 https://leetcode-cn.com/problems/maximum-product-subarray/
     dp，空间1，时间O(n),两个变量,dp_max,dp_min，初始化第一个元素
+
 12. 乘积为正数的最长子数组长度 https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/
     dp,空间1，时间O(n),dp_pos,dp_neg,乘积正数最大长度，乘积负数最大长度
+
 13. 买卖股票的最佳时机含手续费 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
        滚动dp，两个变量，一个存当前不持有的最大利润，一个存当前持有的最大利润
+
 14. 买卖股票最大次数https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/
     状态机解法，四个状态
+
 15. 验证二叉搜索树 https://leetcode-cn.com/problems/validate-binary-search-tree/
     dfs，设置最小边界和最大边界，代表根节点符合条件，递归左子树和右子树即可
+
 16. 括号生成 https://leetcode-cn.com/problems/generate-parentheses/
     深搜dfs，两个变量存放左右括号使用的个数
+
 17. 最近公共祖先
     树节点和p，q节点判断即可
+
 18. 相交链表
     两个指针指向头结点，m+n长度不变，走相同长度即会相交
+
 19. 众数 https://leetcode-cn.com/problems/majority-element/
     摩尔投票法，两个变量一个存结果，一个存计数
+
 20. 快速幂 https://leetcode-cn.com/problems/powx-n/
+
+21. [ 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/) 
+
+    字典保存前缀和结果，O(N)判断
