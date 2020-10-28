@@ -60,3 +60,4 @@
 
 24. #### [491. 递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/)：深搜(数组，当前序列)
 
+25. #### [1109. 航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/):差分前缀和,相等元素的数组表示为差值前缀和，如[2,2,2,2,2]两两元素相减得[2,0,0,0,0]前缀相加，两个相等元素列表求和如再加[0,3,3,3,0],此两两相减为[0,3,0,0,-3],这两个数组相加为变化差值数组，再求前缀和即可表示成原来数组相加
